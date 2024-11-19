@@ -9,6 +9,7 @@ const routes = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
+    errorElement: <ErrorPage />,
   },
   {
     path: "/directors",
@@ -21,10 +22,6 @@ const routes = createBrowserRouter([
   {
     path: "/movie/:id",
     element: <Movie />,
-  },
-  {
-    path: "*",
-    element: <ErrorPage />,
   },
 
 ]);

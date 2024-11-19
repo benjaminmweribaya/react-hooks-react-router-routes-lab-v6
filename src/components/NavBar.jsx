@@ -7,19 +7,19 @@ function NavBar() {
     <nav className="navbar">
       <NavLink
         to="/"
-        ClassName={({ isActive }) => (isActive ? "active" : "")}
+        className={({ isActive }) => (isActive ? "active" : "")}
       >
         Home
       </NavLink>
       <NavLink
         to="/directors"
-        ClassName={({ isActive }) => (isActive ? "active" : "")}
+        className={({ isActive }) => (isActive ? "active" : "")}
       >
         Directors
       </NavLink>
       <NavLink
         to="/actors"
-        ClassName={({ isActive }) => (isActive ? "active" : "")}
+        className={({ isActive }) => (isActive ? "active" : "")}
       >
         Actors
       </NavLink>
